@@ -18,18 +18,20 @@ $latte-green: #40a02b;
 $latte-mauve: #8839ef;
 
 // dark theme Machiato
-$machiato-base: #24273a;
-$machiato-mantle: #1e2030;
+$machiato-base: #1e1e2e;
+$machiato-mantle: #181825;
 $machiato-text: #cad3f5;
 $machiato-subtext0: #a5adcb;
 $machiato-surface0: #363a4f;
 $machiato-surface1: #494d64;
-$machiato-crust: #181926;
+$machiato-crust: #11111b;
 $machiato-green: #a6da95;
 $machiato-pink: #f5bde6;
 $machiato-red: #ed8796;
 $machiato-rosewater: #f4dbd6;
 // <-- KEEP
+
+$martin-green: #27be67;
 
 /* Variables for js, must be the same as these in @custom-media queries */
 :root {
@@ -75,13 +77,13 @@ $machiato-rosewater: #f4dbd6;
   --posts-graph-box-has-post-color: #{$latte-pink}; // both schemes
 
   // href
-  --href-color: #{$latte-mauve}; // href color and href hover bg
+  --href-color: #{$latte-sky}; // href color and href hover bg
   --href-text-hover-color: #{$latte-base};
 
   // same on both themes -->
   --new-button-bg: #{$latte-sky};
   --new-button-bg-hover: #{$latte-pink};
-  --new-button-text: #{$latte-base};
+  --new-button-text: #{$machiato-base};
   --new-button-text-hover: #{$machiato-base};
 
   // details
@@ -113,8 +115,8 @@ $machiato-rosewater: #f4dbd6;
     --post-info-color: #{$machiato-rosewater};
 
     // headings
-    --h1-color: #{$latte-pink};
-    --h2-color: #{$latte-sky};
+    --h1-color: #{$latte-sky};
+    --h2-color: #{$latte-pink};
     --h3-color: #{$latte-green};
     --h4-color: #{$latte-yellow};
     --h-color: #{$machiato-text};
@@ -135,7 +137,7 @@ $machiato-rosewater: #f4dbd6;
     --posts-graph-text-color: #{$machiato-text};
 
     // href
-    --href-color: #{$machiato-green}; // href color and href hover bg
+    --href-color: #{$latte-sky}; // href color and href hover bg
     --href-text-hover-color: #{$machiato-mantle};
 
     // statuslog

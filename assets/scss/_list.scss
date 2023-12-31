@@ -73,6 +73,7 @@
       a {
         text-decoration: underline;
         font-weight: 900;
+        text-decoration-color: var(--post-item-link-hover-color);
 
         &:hover {
           background-color: var(--post-item-link-hover-color);

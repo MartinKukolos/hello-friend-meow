@@ -1,0 +1,8 @@
+a.footnote-ref, a.footnote-backref {
+    text-decoration: none;
+    color: var(--href-color);
+
+    &:hover {
+        color: var(--content-background);
+    }
+}
